@@ -16,6 +16,7 @@ export const events: Event[] = [
   { id: 4, judul: "Bazar Karya Siswa", kategori: "Bazar", tanggal: "2026-12-03", lokasi: "Halaman Depan", harga: 0, kuota: 300, terisi: 41 },
   { id: 5, judul: "Pelatihan Desain Poster", kategori: "Workshop", tanggal: "2026-12-05", lokasi: "Lab Multimedia", harga: 35000, kuota: 25, terisi: 25 },
   { id: 6, judul: "Lomba Cerdas Cermat", kategori: "Lomba", tanggal: "2026-12-10", lokasi: "Aula", harga: 10000, kuota: 60, terisi: 18 },
+    { id: 7, judul: "Lomba Poster Digital", kategori: "Lomba", tanggal: "2026-12-15", lokasi: "Lab Multimedia", harga: 5000, kuota: 40, terisi: 10 },
 ];
 
 export function rupiah(n: number) {
